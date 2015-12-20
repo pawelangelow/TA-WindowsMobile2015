@@ -57,6 +57,7 @@
         {
             var myDialog = dialog as ActionSelectDialog;
             var date = myDialog.SelectedDate;
+            this.Frame.Navigate(typeof(ListEvents), date);
         }
 
         private void GoBackHandler(object sender, RoutedEventArgs e)

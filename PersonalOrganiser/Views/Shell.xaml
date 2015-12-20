@@ -26,10 +26,10 @@
                             <TextBlock Margin="12,0,0,0" VerticalAlignment="Center" Text="Scheduler" />
                         </StackPanel>
                     </Controls:HamburgerButtonInfo>
-                    <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:InitializePage">
+                    <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:TaskerPage">
                         <StackPanel Orientation="Horizontal">
                             <SymbolIcon Width="48" Height="48" Symbol="Manage" />
-                            <TextBlock Margin="12,0,0,0" VerticalAlignment="Center" Text="Notes" />
+                            <TextBlock Margin="12,0,0,0" VerticalAlignment="Center" Text="Tasker" />
                         </StackPanel>
                     </Controls:HamburgerButtonInfo>
                 </Controls:HamburgerMenu.PrimaryButtons>
